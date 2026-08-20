@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ffb5ef99c490044915c8b5f329886a, type: 3}
+  m_Name: CompileMonkeySettings
+  m_EditorClassIdentifier: 
+  compilingImage: {fileID: 2800000, guid: 2c06b8d3dc94a7747a762d4d9310ea32, type: 3}
+  successImage: {fileID: 2800000, guid: aedffb1ae9383c2498976b9bb46cfcbe, type: 3}
+  warningImage: {fileID: 2800000, guid: a2aa059189d6d6f48a814991494dbc6b, type: 3}
+  errorImage: {fileID: 2800000, guid: d52872f29f3dd5d44a0701fe84b0feef, type: 3}
+  compileMusic: {fileID: 8300000, guid: c3544a6a30b7c9b4eac18299fbcd78ab, type: 3}
+  successSfx: {fileID: 8300000, guid: ec9351306552a60419161f395ef258e5, type: 3}
+  warningSfx: {fileID: 8300000, guid: ec9351306552a60419161f395ef258e5, type: 3}
+  errorSfx: {fileID: 8300000, guid: 2c92ae9d05d7b8943aa70d21f3e11909, type: 3}
+  resultDisplayTime: 3
+  fadeDuration: 0.5
+  musicStopDelay: 1.25
+  maxImageSize: 200
+  offsetY: 50
+  useMusic: 0
+  useCompileSFX: 1
+  ignoreWarningOverlay: 1
+  ignoreWarningSound: 1

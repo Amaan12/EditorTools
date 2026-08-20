@@ -1,0 +1,39 @@
+{
+  "name": "com.amaan.editortools",
+  "version": "1.0.0",
+  "displayName": "Editor Tools",
+  "description": "A comprehensive suite of Unity Editor workflow tools and productivity utilities including Asset Hub, Compile Monkey, Unity Enums Generator, Hierarchy Traversal, Tab Navigator, Project Folder Setup, Additive Scene Loader, and more.",
+  "unity": "2022.3",
+  "keywords": [
+    "editor",
+    "tools",
+    "utilities",
+    "workflow",
+    "productivity",
+    "hierarchy",
+    "compilation",
+    "enums",
+    "scenes"
+  ],
+  "author": {
+    "name": "Amaan",
+    "url": "https://github.com/Amaan12"
+  },
+  "samples": [
+    {
+      "displayName": "Additive Scene Loader Sample",
+      "description": "Sample scenes and configuration asset for the Additive Scene Loader tool.",
+      "path": "Samples~/AdditiveSceneLoader"
+    },
+    {
+      "displayName": "Hierarchy Traversal Sample",
+      "description": "Sample scene for testing hierarchy traversal and sibling reordering.",
+      "path": "Samples~/HierarchyTraversal"
+    },
+    {
+      "displayName": "Compile Monkey Test Scripts",
+      "description": "Test script to trigger compilation warnings and test Compile Monkey feedback.",
+      "path": "Samples~/CompileMonkey"
+    }
+  ]
+}
