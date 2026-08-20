@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
 namespace SceneViewer
 {
@@ -21,7 +21,8 @@ namespace SceneViewer
         public ColorCode color = ColorCode.Slate;
     }
 
-    public class SceneViewerData : ScriptableObject
+    [FilePath("ProjectSettings/SceneViewerSettings.asset", FilePathAttribute.Location.ProjectFolder)]
+    public class SceneViewerData : ScriptableSingleton<SceneViewerData>
     {
         public string customFilter = "l:scene";
         public List<ColorMapping> colorMappings = new List<ColorMapping>();
@@ -46,8 +47,7 @@ namespace SceneViewer
 
         public void SaveData()
         {
-            EditorUtility.SetDirty(this);
-            AssetDatabase.SaveAssets();
+            Save(true);
         }
     }
 }

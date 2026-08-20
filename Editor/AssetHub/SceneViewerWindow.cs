@@ -8,8 +8,6 @@ namespace SceneViewer
 {
     public class SceneViewerWindow : EditorWindow, IHasCustomMenu
     {
-        private const string SettingsPath = "Assets/Imported Assets/Mini Demos/SceneViewer/Editor/SceneViewerSettings.asset";
-
         [SerializeField] private SceneViewerData data;
         
         // Split Pane & UI State
@@ -134,19 +132,7 @@ namespace SceneViewer
         {
             if (data == null)
             {
-                data = AssetDatabase.LoadAssetAtPath<SceneViewerData>(SettingsPath);
-                if (data == null)
-                {
-                    string dir = Path.GetDirectoryName(SettingsPath);
-                    if (!Directory.Exists(dir))
-                    {
-                        Directory.CreateDirectory(dir);
-                    }
-
-                    data = CreateInstance<SceneViewerData>();
-                    AssetDatabase.CreateAsset(data, SettingsPath);
-                    AssetDatabase.SaveAssets();
-                }
+                data = SceneViewerData.instance;
             }
         }
 
@@ -430,6 +416,11 @@ namespace SceneViewer
                     if (Event.current.keyCode == KeyCode.Return)
                     {
                         customFilter = filterEditString;
+                        if (data != null)
+                        {
+                            data.customFilter = customFilter;
+                            data.SaveData();
+                        }
                         ScanAssets();
                         isEditingFilter = false;
                         GUI.FocusControl(null);
