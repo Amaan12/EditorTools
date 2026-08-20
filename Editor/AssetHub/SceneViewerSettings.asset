@@ -13,10 +13,4 @@ MonoBehaviour:
   m_Name: SceneViewerSettings
   m_EditorClassIdentifier: 
   customFilter: l:scene
-  colorMappings:
-  - guid: ec9351306552a60419161f395ef258e5
-    color: 0
-  - guid: 2c92ae9d05d7b8943aa70d21f3e11909
-    color: 0
-  - guid: 3a065acd4768c9149a12833edf231098
-    color: 2
+  colorMappings: []

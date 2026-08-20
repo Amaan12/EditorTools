@@ -17,9 +17,9 @@ MonoBehaviour:
   warningImage: {fileID: 2800000, guid: a2aa059189d6d6f48a814991494dbc6b, type: 3}
   errorImage: {fileID: 2800000, guid: d52872f29f3dd5d44a0701fe84b0feef, type: 3}
   compileMusic: {fileID: 8300000, guid: c3544a6a30b7c9b4eac18299fbcd78ab, type: 3}
-  successSfx: {fileID: 8300000, guid: ec9351306552a60419161f395ef258e5, type: 3}
-  warningSfx: {fileID: 8300000, guid: ec9351306552a60419161f395ef258e5, type: 3}
-  errorSfx: {fileID: 8300000, guid: 2c92ae9d05d7b8943aa70d21f3e11909, type: 3}
+  successSfx: {fileID: 8300000, guid: 51e584a4dbdab034ab786a9b219c9326, type: 3}
+  warningSfx: {fileID: 8300000, guid: 2e2b955761faa6041ba119c2e02e3fee, type: 3}
+  errorSfx: {fileID: 8300000, guid: ae3ead6ac6512a04292ce1d6ef7b3d8d, type: 3}
   resultDisplayTime: 3
   fadeDuration: 0.5
   musicStopDelay: 1.25
