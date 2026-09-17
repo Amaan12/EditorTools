@@ -119,23 +119,47 @@ namespace Project.Setup
             Packages.InstallPackages(new[] {
             // "com.unity.2d.animation",
 
-            // * Camera shake independent of Cinemachine, need to read docs though
-            "https://github.com/gasgiant/Camera-Shake.git#upm",
-
             // * Important utilities by git-amend
             "git+https://github.com/adammyhre/Unity-Utils.git",
 
-            // * Improved Timers
+            // * Improved Timers (forked cuz of reversable countdown timer)
             "git+https://github.com/Amaan12/Unity-Improved-Timers.git",
 
             // * Cinemachine
             "com.unity.cinemachine",
 
             // * ValidatedMonobehavior, Idk. Will look into it later.
-            "git+https://github.com/KyleBanks/scene-ref-attribute.git"
+            // * Hmm you can avoid GetComponent calls. And also interface serialization, might come in handy.
+            "git+https://github.com/KyleBanks/scene-ref-attribute.git",
 
-            // * If necessary, import new Input System last as it requires a Unity Editor restart. I think it's come installed by default so it's fine for now.
-            // "com.unity.inputsystem"
+            // * Scene References for Runtime and Editor.
+            "git+https://github.com/starikcetin/Eflatun.SceneReference.git#upm",
+
+            // * GG Camera Shake
+            "https://github.com/gasgiant/Camera-Shake.git#upm",
+
+            // * SimpleFolderIcon
+            "https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=Packages/com.seaeees.simple-folder-icon",
+
+            // * NuGet
+            "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+
+            // * R3
+            "https://github.com/Cysharp/R3.git?path=src/R3.Unity/Assets/R3.Unity",
+
+            // * UniTask
+            "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+
+            // * ZLinq
+            "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
+
+            // * yFullscreen -> Need to fork so wait.
+
+            // * Editor Window Maximizer
+            "https://github.com/longbombus/FullScreenUnityEditor.git",
+
+            // * A lightweight, production-ready, decoupled Model-View-Presenter (MVP) architecture built for Unity uGUI.
+            "https://github.com/Amaan12/Modular-MVP.git"
             });
         }
 
