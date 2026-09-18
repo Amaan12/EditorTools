@@ -11,7 +11,7 @@ using UnityEngine;
 public static class UnityEnumsGenerator
 {
     private const string SCENE_LABEL = "Scene";
-    private const string OUTPUT_DIRECTORY = "Assets/Imported Assets/UnityEnums";
+    private const string OUTPUT_DIRECTORY = "Assets/ImportedAssets/UnityEnums";
     private const string OUTPUT_FILE_NAME = "UnityEnums.cs";
 
     [MenuItem("Tools/Generate/Unity Enums")]
