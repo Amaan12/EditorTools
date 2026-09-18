@@ -159,7 +159,10 @@ namespace Project.Setup
             "https://github.com/longbombus/FullScreenUnityEditor.git",
 
             // * A lightweight, production-ready, decoupled Model-View-Presenter (MVP) architecture built for Unity uGUI.
-            "https://github.com/Amaan12/Modular-MVP.git"
+            "https://github.com/Amaan12/Modular-MVP.git",
+
+            // * Graphy - Ultimate FPS Counter - Stats Monitor Debugger
+            "https://github.com/Tayx94/graphy.git"
             });
         }
 
