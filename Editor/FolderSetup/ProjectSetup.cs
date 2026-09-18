@@ -153,7 +153,8 @@ namespace Project.Setup
             // * ZLinq
             "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
 
-            // * yFullscreen -> Need to fork so wait.
+            // * yFullscreen
+            "https://github.com/Amaan12/yFullScreen.git",
 
             // * Editor Window Maximizer
             "https://github.com/longbombus/FullScreenUnityEditor.git",
