@@ -18,7 +18,7 @@ namespace Project.Setup
     /// 2. Auto-install packages
     /// 3. Create Project Folders
     /// 4. Create Scene Empties
-    /// 5. EnableFastEnterPlayMode
+    /// 5. EnableFastEnterPlayMode (this soon gonna be deprecated, and I'll remove it from this script)
     /// </summary>
     public static class ProjectSetup
     {
@@ -163,7 +163,13 @@ namespace Project.Setup
             "https://github.com/Amaan12/Modular-MVP.git",
 
             // * Graphy - Ultimate FPS Counter - Stats Monitor Debugger
-            "https://github.com/Tayx94/graphy.git"
+            "https://github.com/Tayx94/graphy.git",
+
+            // * Cinematic LUTs
+            "https://github.com/Amaan12/Cinematic-Look-LUT-Library.git"
+
+            // * Audio System
+            // "https://github.com/Amaan12/Audio-System.git"
             });
         }
 
